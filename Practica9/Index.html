@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reemplazar Valor en Pila</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reemplazar Valor en Pila</h1>
+        <p>Ingresa los elementos de la pila (separados por comas):</p>
+        <input type="text" id="inputPila" placeholder="Ejemplo: 1, 2, 3, 4, 2, 5">
+        
+        <p>Valor viejo:</p>
+        <input type="number" id="valorViejo" placeholder="Valor viejo">
+        
+        <p>Nuevo valor:</p>
+        <input type="number" id="nuevoValor" placeholder="Nuevo valor">
+        
+        <button onclick="reemplazarValores()">Reemplazar</button>
+        
+        <div class="result">
+            <h2>Pila Modificada:</h2>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de Números Grandes con Pilas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Suma de Números Grandes usando Pilas</h1>
+        <p>Ingresa dos números grandes (de 3 a 4 cifras) para sumar:</p>
+        
+        <div class="input-container">
+            <input type="text" id="num1" placeholder="Número 1" maxlength="4">
+            <input type="text" id="num2" placeholder="Número 2" maxlength="4">
+        </div>
+        
+        <button onclick="sumarNumeros()">Sumar</button>
+        
+        <div class="result">
+            <h2>Resultado:</h2>
+            <p id="resultado"></p>
+        </div>
+        
+        <div>
+            <h2>Proceso de Suma</h2>
+            <div id="proceso"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
